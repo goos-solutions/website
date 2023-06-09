@@ -1,0 +1,65 @@
+/* Style the navigation bar */
+.navbar {
+    overflow: hidden;
+    background: linear-gradient(to top, #000000, #ffbb00);
+    display: flex;
+    align-items: center; /* Center the items vertically */
+  }
+  
+  /* Style the navigation links */
+  .navbar a {
+    float: right;
+    display: flex; /* Change display to flex */
+    align-items: center; /* Align items vertically at the center */
+    color: white;
+    text-align: center;
+    padding: 15px 15px; /* Adjust the padding for the desired height */
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: 'Lexend Exa', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+  }
+  
+  /* Change the font color of navigation links on hover */
+  .navbar a:not(.contact-button):hover {
+    color: #d76a03;
+  }
+  
+  /* Style the round button */
+  .navbar .contact-button {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center; /* Center the content horizontally and vertically */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border-radius: 40px;
+    background-color: #ffbb00;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    color: black;
+    line-height: 1; /* Set line-height to 1 to remove any additional vertical spacing */
+  }
+  
+  /* Change the background color of the round button on hover */
+  .navbar .contact-button:hover {
+    background-color: #d76a03;
+  }
+  
+  /* Remove the float property from the logo */
+  .logo {
+    vertical-align: middle;
+    float: none;
+    height: 80px;
+    width: 71px;
+  }
+  
+  /* Adjust the padding of the navbar */
+  .navbar {
+    padding: 25px 20px; /* Adjust the left and right padding as needed */
+    max-width: 100%; /* Set the maximum width to 100% */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  

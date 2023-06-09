@@ -1,0 +1,35 @@
+.block-section RMO {
+    font-family: 'Rubik Mono One', sans-serif; /* Change this font family to 'Rubik Mono One' */
+    font-size: 56px; /* Adjust the font size as needed */
+    color: #fff; /* Adjust the color as needed */
+    line-height: 1.2;
+  }
+  
+  .block-section RMO ye { /*color yellow*/
+    color: #ffbb00; /* Change the color to your desired one */
+  }
+  
+  .block-section RMO st { /* small title size */
+    font-size: 40px; /* Adjust the font size as needed */
+  }
+  
+  .block-section sst { /* small title size */
+    font-family: 'Rubik Mono One', sans-serif; /* Change this font family to 'Rubik Mono One' */
+    font-size: 21px; /* Adjust the font size as needed */
+    color: #fff; /* Adjust the color as needed */
+    line-height: 1.2;
+    padding-top: 15px;
+  }
+  
+  .block-section LE {
+    font-family: 'Lexend Exa', sans-serif; /* Change this font family to your desired one */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    color: #fff; /* Adjust the color as needed */
+  } 
+
+  .block-section LEs {
+    font-family: 'Lexend Exa', sans-serif; /* Change this font family to your desired one */
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #fff; /* Adjust the color as needed */
+  } 

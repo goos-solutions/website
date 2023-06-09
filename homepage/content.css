@@ -1,0 +1,103 @@
+
+  .block-section.welcome {
+    justify-content: center; /* Center the content horizontally */
+    text-align: left; /* Center the text within each block section */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .block-section.description {
+    justify-content: center; /* Center the content horizontally */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .block-section.goose img {
+    justify-content: center; /* Center the content horizontally */
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    height: auto;
+  }
+
+  .block-section.expertise{
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text within each block section */
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
+  
+  .block-section.timeframe{
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text within each block section */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .block-section.innovation{
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text within each block section */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .block-section.solution{
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text within each block section */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .block-section.pricing{
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text within each block section */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .block-section.timeframe{
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text within each block section */
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .block-section.innovation{
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text within each block section */
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .block-section.solution{
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text within each block section */
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .block-section.pricing{
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center the text within each block section */
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  

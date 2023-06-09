@@ -1,0 +1,74 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Move the logo container to the left */
+.logo-container {
+  margin-right: auto; /* Add margin-right auto to push the logo container to the left */
+}
+
+.block-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the block sections horizontally */
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-section {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap; /* Allow block sections to wrap to new lines */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.block-section.fade-in {
+  opacity: 0; /* Initially hide the block section */
+  transform: translateY(50px); /* Move the block section down */
+  animation: fade-in-animation 1s forwards; /* Apply the fade-in animation */
+}
+
+@keyframes fade-in-animation {
+  0% {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateY(50px); /* Move the block section down */
+  }
+  100% {
+    opacity: 1; /* Fade in to full opacity */
+    transform: translateY(0); /* Move the block section back to its original position */
+  }
+}
+
+/* Add a media query to modify the layout when the window width is smaller */
+@media screen and (max-width: 768px) {
+  .block-container {
+    flex-direction: column; /* Stack block sections vertically */
+    align-items: center;
+  }
+
+  .block-section {
+    margin-bottom: 20px; /* Add some space between the stacked block sections */
+    flex: 1;
+  }
+}
+
+.icon {
+  width: 90px; /* Adjust the width as needed */
+  height: 90px; /* Adjust the height as needed */
+  display: inline-block;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  flex: 1;
+}
